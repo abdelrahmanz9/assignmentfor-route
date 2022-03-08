@@ -1,0 +1,75 @@
+@font-face {
+    font-family: font1;
+    src: url(../fonts/Acme/Acme-Regular.ttf);
+    font-family: font2;
+    src: url(../fonts/Lobster/Lobster-Regular.ttf);
+    font-family: font3;
+    src: url(../fonts/Patua_One/PatuaOne-Regular.ttf);
+    font-family: font4;
+    src: url(../fonts/Sniglet/Sniglet-Regular.ttf);
+    font-family: font5;
+    src: url(../Rubik/Rubik-VariableFont_wght.ttf)
+    
+}
+
+*{
+    box-sizing: border-box;
+}
+
+:root{
+    --light-black:#2e2c2caf
+    --bggradient:linear-gradient(to bottom , #dd2476 , #ff512f );
+    --light-gray:rgba( 255,255,255,0.5 )
+}
+
+header a{
+    font-family: font2;
+    color: whitesmoke   !important;   
+    text-decoration: none; 
+  
+}
+
+header{
+    background:linear-gradient(to bottom , #dd2476 , #ff512f ) ;
+}
+
+.main-nav{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+}
+
+.dropdown-content{
+    background-color: white;
+    position:absolute ;
+    display: none;
+   
+    
+}
+
+.dropdown-content a{
+    display: block;
+    color: black !important;
+    padding: 12px 50px 12px 12px  ;
+    
+}
+
+.dropdown-content a:hover{
+    background-color: #ddd;
+}
+
+.dropdown:hover.dropdown-content{
+    display: block ;
+}
+
+header .nav-item{
+    padding: 0.9em;
+}
+header .nav-item:last-child{
+    padding-right: 10.5em;
+}
+
+.navbar-brand{
+    padding-left:  8rem ;
+}
