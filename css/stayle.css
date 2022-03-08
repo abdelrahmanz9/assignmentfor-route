@@ -40,28 +40,7 @@ header{
     right: 0px;
 }
 
-.dropdown-content{
-    background-color: white;
-    position:absolute ;
-    display: none;
-   
-    
-}
 
-.dropdown-content a{
-    display: block;
-    color: black !important;
-    padding: 12px 50px 12px 12px  ;
-    
-}
-
-.dropdown-content a:hover{
-    background-color: #ddd;
-}
-
-.dropdown:hover.dropdown-content{
-    display: block ;
-}
 
 header .nav-item{
     padding: 0.9em;
