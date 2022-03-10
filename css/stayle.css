@@ -60,3 +60,86 @@ header .nav-item:last-child{
 {
     font-weight: 600;
 }
+
+
+/* section two start */
+
+
+.grey-bg {
+    background-color: #f7f7f7;
+}
+.pricing-table
+{
+    position: relative;
+    border: 1px solid #f3f3f3;
+    max-width: 400px;
+    padding: 45px 35px;
+    margin: 50px auto 25px;
+    width: 100%;
+    background-color: #fff;
+    box-shadow: 0 0 40px rgb(0 0 0 / 5%);
+    transition: all .3s ease;
+}
+
+.pricing-table .price
+{
+    padding: 15px 0;
+    border-bottom: 1px solid #eee;
+
+}
+.pricing-table .features
+{
+    margin-top: 15px;
+}
+.nav {
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+}
+.pricing-table .pricing-footer {
+    padding: 20px 0;
+}
+.pricing-table .features>li {
+    padding: 8px 0;
+}
+.btn.btn-sm {
+    padding: 0 16px;
+    font-size: 12px;
+    height: 40px;
+    line-height: 40px;
+}
+.btn-color {
+    color: #fff;
+    background-color: #00c3da;
+}
+.btn-shadow {
+    box-shadow: 0 4px 16px rgb(0 0 0 / 7%);
+}
+
+
+
+.pricing-table.featured {
+    background-color: #fff;
+    z-index: 20;
+}
+.pricing-table .featured-label {
+    position: absolute;
+    top: 40px;
+    right: 35px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 9px;
+    font-weight: 500;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    background-color: #00c3da;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 15px;
+}
+.pricing-table.featured .price h2 {
+    color: #00c3da;
+}
+.pricing-table.featured {
+    transform: scale(1.08);
+}
+/* section two end  */
