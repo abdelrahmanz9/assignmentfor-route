@@ -40,8 +40,6 @@ header{
     right: 0px;
 }
 
-
-
 header .nav-item{
     padding: 0.9em;
 }
@@ -51,4 +49,14 @@ header .nav-item:last-child{
 
 .navbar-brand{
     padding-left:  8rem ;
+}
+
+.row .card img
+{
+    height: 225px;
+}
+
+.header-container h2
+{
+    font-weight: 600;
 }
